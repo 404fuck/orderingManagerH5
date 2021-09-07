@@ -1,0 +1,324 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  color: #5c575e;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial;
+  height: 100%;
+  min-height: 100%;
+}
+
+#app {
+  background: white;
+  height: 100%;
+}
+
+.el-input__inner {
+  border: none !important;
+}
+
+.passinputView .van-overlay {
+  z-index: 0 !important;
+}
+
+.passinputView .van-number-keyboard {
+  z-index: 2020 !important;
+}
+
+.card-header:after {
+  background-color: #eff1f2 !important;
+}
+
+.card-footer:before {
+  background-color: #eff1f2 !important;
+}
+.font10 {
+  font-size: 10px;
+}
+.font12 {
+  font-size: 12px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font22 {
+  font-size: 22px;
+}
+.font18 {
+  font-size: 18px;
+}
+
+/* toolbar */
+.toolbar-inner .active {
+  color: #148cae;
+}
+
+.toolbar .toolbar-inner a span {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+.toolbar .button {
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.toolbar-fixed .floating-button,
+.toolbar-through .floating-button {
+  top: 144px !important;
+  left: 0px !important;
+}
+.padding15 {
+  padding: 15px;
+}
+/* text-align */
+.center{
+  text-align: center;
+}
+.right,
+.right-style {
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+/* text-color */
+.color-darkbrown {
+  color: #505050;
+}
+.color-lightbrown {
+  color: #808080;
+}
+/* fontweight */
+.fontWeight {
+  font-weight: bold;
+}
+img {
+  object-fit: cover;
+}
+/* search */
+.searchbar {
+  background: white;
+  height: 50px;
+  position: initial;
+}
+.searchbar .searchbar-input {
+  height: 35px;
+}
+.searchbar input[type='search'] {
+  border-radius: 20px;
+}
+.searchbar .searchbar-clear {
+  height: 35px;
+}
+.searchbar input[type='search'] {
+  border-radius: 5px;
+  background-color: #f4f8fb;
+}
+.popover-inner {
+  border-radius: 10px;
+}
+.list-block {
+  background: white;
+}
+.list-block input[type='text'],
+.list-block input[type='number'] {
+  font-size: 14px;
+  text-align: right;
+  height: 29px;
+}
+.row textarea {
+  margin-top: 10px;
+  border: dashed 1px #dfe1e5;
+  height: 70px;
+  width: 100%;
+  font-size: 14px;
+}
+.top5 {
+  margin-top: 5px;
+}
+.top10 {
+  margin-top: 10px;
+}
+.top15 {
+  margin-top: 15px;
+}
+.top18 {
+  margin-top: 18px;
+}
+.top20 {
+  margin-top: 20px;
+}
+.top30 {
+  margin-top: 30px;
+}
+.top40 {
+  margin-top: 40px;
+}
+.top60 {
+  margin-top: 60px;
+}
+.top70 {
+  margin-top: 70px;
+}
+.top50 {
+  margin-top: 50px;
+}
+.top80 {
+  margin-top: 80px;
+}
+.left20 {
+  margin-left: 20px;
+}
+.left30 {
+  margin-left: 30px;
+}
+.left5 {
+  margin-left: 5px;
+}
+.left10 {
+  margin-left: 10px;
+}
+.left15 {
+  margin-left: 15px;
+}
+.bottom5{
+  margin-bottom: 5px;
+}
+.buttons-row {
+  padding: 10px;
+}
+.navbar .right img {
+  height: 20px;
+}
+.item-link.list-button,
+.list-button {
+  color: #148cae;
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  float: right;
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 5px;
+}
+.picker-modal .picker-modal-inner {
+  height: 110%;
+}
+.page-content {
+  position: static;
+}
+.qrcode.active i {
+  color: white !important;
+}
+.page-content::before {
+  display: block;
+  content: '';
+  position: absolute;
+  z-index: -99999;
+  top: 0px;
+  left: 0px;
+  bottom: -1px;
+  right: 0px;
+}
+
+.selectlanguage .van-popup {
+  width: 100% !important;
+  padding: 0px !important;
+}
+
+.reports .van-tabs__nav {
+  background: none !important;
+}
+
+.reports .data-table thead th {
+  font-weight: bold !important;
+  color: #232426;
+  background: #fff9f5;
+}
+.seacherSelect .el-input__inner {
+  padding: 0px !important;
+}
+
+.storeTable thead th {
+  background: #fff9f5 !important;
+}
+
+.orderDetail thead th {
+  background: #f4f7fd !important;
+}
+
+.reports .data-table th.numeric-cell,
+.data-table td.numeric-cell {
+  overflow: hidden;
+  text-align: center !important;
+}
+
+.reports .data-table tbody td:before {
+  background-color: #e6eaef;
+  z-index: 0;
+}
+
+.reports .van-tab--active {
+  font-weight: bold;
+  color: #fe813c !important;
+  font-size: 16px;
+}
+
+.reports .van-tab {
+  font-size: 16px;
+  color: #505050;
+}
+
+.reports .van-tabs__line {
+  background-color: #fe813c;
+}
+.refund .el-icon-arrow-up:before {
+  display: none !important;
+}
+.emailCheck label.label-checkbox input[type='checkbox']:checked + .item-media i.icon-form-checkbox,
+label.label-checkbox input[type='radio']:checked + .item-media i.icon-form-checkbox,
+.form-checkbox input[type='checkbox']:checked ~ i {
+  background-color: #fe813c;
+}
+.orderList .van-cell {
+  padding: 0px !important;
+}
+.el-popper{
+  color: #808080 !important;
+  font-size: 10px !important;
+  /* transform: scale(0.83) !important; */
+}
+.timeShow{
+  background: #FFF9F5;
+  color: #FE813C;
+  padding: 7px;
+  text-align: center;
+  margin-top: 10px;
+}
+.selectPage a{
+  color: #505050;
+  background: #F6F6F6;
+  border:none;
+}
+.reportPicker .el-date-editor.el-input{
+  width: 80% !important;
+}
+.reportPicker .el-input__inner{
+  background: #F6F6F6 !important;
+  height: 30px !important;
+}

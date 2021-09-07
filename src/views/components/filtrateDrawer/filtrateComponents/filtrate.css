@@ -1,0 +1,80 @@
+.filtrate-item-wrapper {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.title {
+   float: left;
+   width: 90px;
+   line-height: 26px;
+   color: #505050;
+   font-size: 14px;
+   text-align: right;
+   margin-right: 10px;
+}
+
+.content {
+    font-size: 12px;
+    float: right;
+    width:280px;
+    height:28px;
+    border-radius:2px;
+    border:1px solid rgba(216,216,216,1);
+}
+.el-input__inner,.el-input__icon{
+    height: 26px !important;
+    line-height: 26px !important;
+} 
+.el-date-editor .el-range-separator{
+    height: auto !important;
+}
+.el-icon-caret-right:before{
+    content: none !important;
+}
+.el-tree-node__expand-icon.el-icon-caret-right{
+    background: url('../../../../style/images/settings.png')!important;
+    background-size:16px 16px !important;
+    background-repeat: no-repeat !important;
+}
+.el-tree-node__expand-icon.expanded{
+    transform: rotate(270deg) !important;
+}
+.el-tree-node__content>.el-tree-node__expand-icon{
+    padding: 10px !important;
+}
+.is-leaf .el-tree-node__expand-icon .el-icon-caret-right:before{
+    content: none !important;
+    background-image: none !important;
+}
+.selectRadio .el-checkbox{
+    position: absolute !important;
+    right: 15px !important;
+}
+.el-tree-node__expand-icon.is-leaf{
+    background-image: none !important;
+}
+.selectCheck,.selectRadio .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    /* background-color: #FE813C !important; */
+    border-color: #FE813C !important;
+}
+/* 按钮式 筛选组件*/
+.content-btn{
+    float: right;
+    width:280px;
+    line-height: 28px;
+    overflow: hidden;
+}
+.content-btn span{
+    float: left;
+    display: block;
+    padding: 0 15px;
+    border-radius:14px;
+    background: #F3F3F5;
+    font-size: 12px;
+    color: #505050;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.content-btn span.active{
+    background: #FFEBDE;
+    color: #F46F24;
+}
